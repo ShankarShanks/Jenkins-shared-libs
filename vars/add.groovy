@@ -1,4 +1,6 @@
-scripts {
-def result = params.varOne.toInteger() + params.varTwo.toInteger()
-  echo "Result is ${result}"
-}
+script{
+    def varOne = params.varOne as int
+    def varTwo = params.varTwo as int
+    def result = varOne + varTwo
+    echo "Result is ${result}"
+}    
