@@ -1,3 +1,6 @@
-def x=10
-def y=20
-print "sum of (x+y)"
+ script{
+  def varOne = params.varOne as int
+  def varTwo = params.varTwo as int
+  def result = varOne + varTwo
+    echo "Result is ${result}" 
+ }    
