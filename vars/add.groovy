@@ -1,3 +1,4 @@
+def call "${result}"
 parameters {
   string defaultValue: '10', description: 'Enter value for x', name: 'VarOne'
   string defaultValue: '20', description: 'Enter value for y', name: 'VarTwo'
