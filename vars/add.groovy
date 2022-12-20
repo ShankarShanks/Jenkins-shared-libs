@@ -1,3 +1,3 @@
 def x=10
 def y=20
-print 'sum of x + y =' + (x+y)
+print "sum of (x+y)"
